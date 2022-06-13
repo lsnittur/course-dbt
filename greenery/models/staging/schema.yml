@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: addresses_stg
+    description: User addresses-contains pii
+
+  - name: users_stg
+    description: Information about the users -contains pii
+
+  - name: events_stg
+    description: Information on events triggered
+
+  - name: orders_stg
+    description: Order details including ids
+    
+  - name: order_items_stg
+    description: Details of items ordered 
+
+  - name: products_stg
+    description: Products available to order
+
+  - name: promos_stg
+    description: Discounts and promotions available
+
