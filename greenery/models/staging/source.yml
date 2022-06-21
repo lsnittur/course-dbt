@@ -18,4 +18,5 @@ sources:
       - name: order_items
       - name: products
       - name: promos
+      - name: superheroes
 

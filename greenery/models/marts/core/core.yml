@@ -1,0 +1,32 @@
+version: 2
+
+models:
+
+  - name: dim_products
+    description: Table containing products
+    columns:
+      - name: product_guid
+        description: product ID for each product
+        tests:
+          - not_null
+          - unique
+
+
+  - name: dim_users
+    description: User information table
+    columns:
+      - name: user_guid
+        description: user ID for customers 
+        tests:
+          - not_null
+          - unique
+
+
+  - name: fact_orders
+    description: Orders fact table
+    columns:
+      - name: order_guid
+        description: unique id for each order placed on Greenery's website
+        tests:
+          - not_null
+          - unique

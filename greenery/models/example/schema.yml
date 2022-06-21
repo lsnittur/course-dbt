@@ -19,3 +19,11 @@ models:
         tests:
           - unique
           - not_null
+
+  - name: stg_superheroes
+    description: Demographics about each superhero such as name, hair color, height and weight.   
+    columns:
+      - name: name
+        tests:
+          - not_null
+          - unique 

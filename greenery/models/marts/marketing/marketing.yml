@@ -1,0 +1,12 @@
+version: 2
+
+models:
+
+  - name: fact_user_order
+    description: User order fact table
+    columns:
+      - name: user_guid
+        description: unique user ID for  customers 
+        tests:
+          - not_null
+          - unique
